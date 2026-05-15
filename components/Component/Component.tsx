@@ -1,3 +1,3 @@
 export const Component = () => {
-  return <div>Компонент</div>;
+  return <div><h1>Компонент для WebParty</h1></div>;
 };
