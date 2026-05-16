@@ -16,16 +16,6 @@ export const Sidebar = () => {
             <p>Главная</p>
           </Link>
         </li>
-        <li className={styles.sidebarItem}>
-          <Link className={styles.sidebarItemLink} href={"#"}>
-            <SvgIcon
-              className={styles.sidebarItemIcon}
-              size={25}
-              name={"transfer"}
-            />
-            <p>Список транзакций</p>
-          </Link>
-        </li>
       </ul>
     </aside>
   );
