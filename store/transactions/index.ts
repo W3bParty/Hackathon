@@ -8,7 +8,7 @@ const initialState: transactionsState = {
       type: "Доход",
       summ: 100,
       category: "Еда",
-      date: new Date(),
+      date: "16.05.2026",
       comment: "Комментарий",
     },
   ],

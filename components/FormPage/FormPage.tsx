@@ -108,10 +108,14 @@ export const FormPage = () => {
 
             <input
               className={styles.input}
-              type="number"
+              type="text"
               placeholder="Введите сумму"
               value={summ}
-              onChange={(event) => setSumm(Number(event.target.value))}
+              onChange={(event) => {
+                const value = event.target.value.replace(/\D/g, "");
+
+                setSumm(Number(value));
+              }}
             />
           </div>
 

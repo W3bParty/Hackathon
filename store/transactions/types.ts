@@ -7,7 +7,7 @@ export interface Transaction {
   type: "Доход" | "Расход";
   summ: number;
   category: string;
-  date: Date;
+  date: string;
   comment: string;
 }
 
@@ -15,6 +15,6 @@ export interface TransactionCreate {
   type: "Доход" | "Расход";
   summ: number;
   category: string;
-  date: Date;
+  date: string;
   comment: string;
 }
