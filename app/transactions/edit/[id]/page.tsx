@@ -1,5 +1,5 @@
 import { FormPage } from "@/components/FormPage/FormPage";
 
-export default function Add() {
+export default function Edit() {
   return <FormPage />;
 }

@@ -10,6 +10,7 @@
 .headerLeft {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .headerTitle {
