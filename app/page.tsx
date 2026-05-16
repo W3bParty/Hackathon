@@ -1,11 +1,5 @@
-import { Component, UIComponent } from "@/components";
+import { MainPage } from "@/components/MainPage/MainPage";
 
 export default function Home() {
-  return (
-    <div>
-      <h1>Start of the project W3bParty: Ilchan, Insaf, Rinat</h1>
-      <Component />
-      <UIComponent />
-    </div>
-  );
+  return <MainPage />;
 }

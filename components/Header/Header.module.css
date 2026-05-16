@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+    border-bottom: 1px solid #e6eff5;
+}
+
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.headerTitle {
+    font-weight: 700;
+    font-size: 21px;
+    color: var(--text);
+    margin-left: 10px;
+}
+
+
+.headerInfo {
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    color: var(--text);
+}
