@@ -1,0 +1,171 @@
+.content {
+    background-color: var(--gray-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contentTitle {
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    color: var(--foreground);
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.contentDesc {
+    max-width: 964px;
+    margin-bottom: 30px;
+}
+
+.contentBtn {
+    border: none;
+    background-color: var(--primary);
+    color: #fff;
+    font-weight: 800;
+    font-size: 21px;
+    text-align: center;
+    width: max-content;
+    padding: 20px 30px;
+    border-radius: 30px;
+    cursor: pointer ;
+    transition: all 0.3s;
+    margin-bottom: 70px;
+}
+
+
+.contentBtn:hover {
+    background-color: #2546ac;
+}
+
+.contentCards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.contentCard {
+    padding: 30px;
+    grid-column: 4 span;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.contentCardBlue {
+    background: linear-gradient(136deg, #4c49ed 0%, #0a06f4 100%);
+}
+
+
+.contentCardTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.contentCardTitle {
+    color: #fff;
+    font-weight: 600;
+    font-size: 29px;
+    margin-right: 15px;
+}
+
+.contentCardMoney {
+    font-weight: 600;
+    font-size: 29px;
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.contentCardBottomText {
+    font-weight: 600;
+    font-size: 19px;
+    color: #fff;
+    text-align: right;
+}
+
+.contentCardTitleWhite {
+    color: #005fff;
+}
+
+.contentCardMoneyWhite {
+    font-weight: 600;
+    font-size: 29px;
+    color: #343c6a;
+}
+
+.contentCardBottomTextWhite {
+    color: #000;
+}
+
+.contentTable {
+    background-color: var(--background);
+}
+
+.contentTable {
+    border: 1px solid #ccc; /* граница всей таблицы */
+    border-collapse: collapse; /* объединение границ ячеек */
+    font-family: Arial, sans-serif;
+}
+
+.contentTableHeaderItem {
+    padding: 10px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.contentTableBodyItem {
+    padding: 10px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.contentTableHeaderItem tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.contentEditBtn {
+    border: none;
+    background-color: var(--primary);
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contentDeleteBtn {
+    border: none;
+    background-color: #C62828;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    padding: 8px 14px;
+    cursor: pointer;
+
+}
+
+.contentTableBodyContent {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.contentTableIcon {
+    transform: rotate(180deg);
+}
+
+.contentTableBodyType {
+    margin-right: 15px;
+}
